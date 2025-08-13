@@ -1,3 +1,23 @@
+// Botão Instagram:
+
+const instagramBtn = document.getElementById("instagramButton");
+
+instagramBtn.addEventListener("click", () => {
+  window.open("https://www.instagram.com/construpred", "_blank");
+});
+
+const facebookBtn = document.getElementById("facebookButton");
+
+facebookBtn.addEventListener("click", () => {
+  window.open("https://www.facebook.com/profile.php?id=61564298175344", "_blank");
+});
+
+const whatsappBtn = document.getElementById("whatsappButton");
+
+whatsappBtn.addEventListener("click", () => {
+  window.open("https://wa.me/5554981534028", "_blank");
+});
+
 const slides = document.querySelectorAll('.slides a');
 const prevBtn = document.querySelector('.prev');
 const nextBtn = document.querySelector('.next');
